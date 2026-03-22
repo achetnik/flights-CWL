@@ -1,24 +1,13 @@
-"""Cardiff Airport (CWL) destinations."""
+"""Cardiff Airport (CWL) destinations — verified via Google Flights."""
 
 DESTINATIONS = {
     "CWL": {
         "name": "Cardiff",
         "routes": {
-            "AGP": "Malaga",
             "ALC": "Alicante",
-            "ACE": "Lanzarote",
-            "AYT": "Antalya",
-            "BCN": "Barcelona",
-            "CFU": "Corfu",
-            "DLM": "Dalaman",
+            "AMS": "Amsterdam",
+            "BHD": "Belfast City",
             "DUB": "Dublin",
-            "EDI": "Edinburgh",
-            "FAO": "Faro",
-            "FUE": "Fuerteventura",
-            "HER": "Heraklion",
-            "LPA": "Gran Canaria",
-            "PMI": "Palma",
-            "TFS": "Tenerife",
         },
     },
 }
