@@ -23,21 +23,10 @@ jobs:
       max-parallel: 10
       matrix:
         destination:
-          - ACE
-          - AGP
           - ALC
-          - AYT
-          - BCN
-          - CFU
-          - DLM
+          - AMS
+          - BHD
           - DUB
-          - EDI
-          - FAO
-          - FUE
-          - HER
-          - LPA
-          - PMI
-          - TFS
 
     steps:
       - name: Checkout code
