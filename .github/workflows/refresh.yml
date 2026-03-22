@@ -23,10 +23,40 @@ jobs:
       max-parallel: 10
       matrix:
         destination:
+          - ACE
+          - AGP
           - ALC
           - AMS
+          - AYT
+          - BGI
           - BHD
+          - BOJ
+          - CFU
+          - CMF
+          - CUN
+          - DBV
+          - DLM
           - DUB
+          - EDI
+          - EFL
+          - ENF
+          - FAO
+          - FUE
+          - HER
+          - IBZ
+          - IVL
+          - KGS
+          - LCA
+          - LPA
+          - MAH
+          - NBE
+          - PFO
+          - PJA
+          - PMI
+          - REU
+          - RHO
+          - TFS
+          - ZTH
 
     steps:
       - name: Checkout code
